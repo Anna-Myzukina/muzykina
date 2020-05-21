@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Project from './ProjectsUI';
-import content from './Data';
+import content from './DataProject';
 
 
 class Projects extends Component {
@@ -17,7 +17,7 @@ class Projects extends Component {
                 <div className="row">
                     {(content).map(item => (
                         <div className="col-md-4">
-                            <Project titles={item.title} imgsrc={item.img} description={item.text}></Project>
+                            <Project titles={item.title} imgsrc={item.img} description={item.text} href={item.href} source={item.source}></Project>
                         </div>
                     ))}
                     
