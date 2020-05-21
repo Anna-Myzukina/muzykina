@@ -9,10 +9,10 @@ const Project = props => {
             </div>
             <div className="card-body text-dark">
                 <h4 className="card-title">
-                    facebook-clone
+                    { props.titles }
                 </h4>
                 <p className="card-text text-secondary">
-                    Description
+                    { props.description }
                 </p>
                 <a href="/" class="btn btn-outline-success">Preview</a>
             </div>

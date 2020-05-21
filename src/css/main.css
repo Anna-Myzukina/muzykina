@@ -1,5 +1,5 @@
 body{
-    background: radial-gradient(#e5e5e5, #fff, #e5e5e5);
+    /*background: radial-gradient(#e5e5e5, #fff, #e5e5e5);*/
     font-family: 'Josefin';
 }
 
@@ -62,7 +62,7 @@ h6 {
 .btn-primary:active,
 .btn-primary:focus {
     -webkit-box-shadow: 0 0 0 .2rem rgba(254, 209, 55, .5) !important;
-    box-shadow: 0 0 0 .2rem rgba(254, 209, 55, .5) !important
+    box-shadow: 0 0 0 .2rem rgba(254, 209, 55, .5) !important;
 }
 .navbar-bg {
     background: rgba(0, 0, 0, 0.7);
@@ -77,26 +77,61 @@ h6 {
 
 }
 header.header-section .intro-text .intro-lead-in {
-    font-size: 22px;
-    font-style: italic;
-    line-height: 22px;
-    margin-bottom: 25px;
-}
-
-header.header-section .intro-text .intro-heading {
-    font-size: 50px;
+    font-family: 'Allura';
+    color: #deb150;
+    box-shadow: 0 0 0 .2rem rgba(51, 46, 31, 0.5) !important;
+    text-shadow: 2px 2px 8px rgb(50, 53, 20);
+    background: rgba(54, 47, 26, 0.322);
+    border-radius: 5%;
+    font-size: 55px;
     font-weight: 700;
-    line-height: 50px;
-    margin-bottom: 25px;
+    line-height: 22px;
+    margin: 25px 0;
 }
 
+header.header-section .intro-text .heading-content {
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    background: #6e7979;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(247, 244, 246, 0.548);
+}
+.social-header{
+    display: flex;
+    position: relative;
+}
+
+ul.social-header li a {
+    
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    color: #fff;
+    border-radius: 20%;
+    outline: 0;
+    background-color: #e4ba23da;
+    border: 3px solid #21252944;
+}
+ul.social-header li a:hover{
+    background-color: #21252944;
+}
+
+ul.social-header li a:active,
+ul.social-header li a:focus,
+ul.social-header li a:hover {
+    background-color: #21252944;
+}
 @media (min-width:768px) {
 
     header.header-section .intro-text .intro-lead-in {
         font-size: 40px;
-        font-style: italic;
         line-height: 40px;
-        margin-bottom: 25px;
+        margin-bottom: 25px 0;
     }
 
     header.header-section .intro-text .intro-heading {
@@ -121,9 +156,9 @@ header.header-section .intro-text .intro-heading {
     margin-bottom: 15px
 }
 
-.about-section h3.section-subheading,
-.projects-section h3.section-subheading  {
-    font-size: 16px;
+.about-section .about-h3,
+.projects-section .projects-h3  {
+    font-size: 20px;
     font-weight: 400;
     font-style: italic;
     margin-bottom: 75px;  
@@ -371,11 +406,11 @@ ul.social-buttons li a {
     color: #fff;
     border-radius: 100%;
     outline: 0;
-    background-color: #212529
+    background-color: #212529;
 }
 
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-    background-color: #fed136
+    background-color: #fed136;
 }

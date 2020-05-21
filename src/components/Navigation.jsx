@@ -17,19 +17,8 @@ export default () => {
             <li className="nav-item">
               <a className="nav-link" href="#projects">Projects</a>
             </li>
-         
-           
-            <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#about" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                About me
-              </a>
-              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="/">Education</a>
-                <a className="dropdown-item" href="/">Experience</a>
-                <div className="dropdown-divider"></div>
-                <a className="dropdown-item" href="/">Skills</a>
-              </div>
+            <li className="nav-item">
+              <a className="nav-link" href="#skills">Skills</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contact">Contact</a>

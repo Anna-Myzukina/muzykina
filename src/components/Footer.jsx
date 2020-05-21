@@ -11,6 +11,11 @@ export default () => {
         </div>
         <div className="col-md-4">
           <ul className="list-inline social-buttons">
+          <li className="list-inline-item">
+              <a href="https://github.com/Anna-Myzukina" target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-github"></i>
+              </a>
+            </li>
             <li className="list-inline-item">
               <a href="https://twitter.com/AnnaMuzykina" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-twitter"></i>
