@@ -17,7 +17,7 @@ class Projects extends Component {
                 <div className="row">
                     {(content).map(item => (
                         <div className="col-md-4">
-                            <Project titles={item.title} imgsrc={item.img} description={item.text} href={item.href} source={item.source}></Project>
+                            <Project titles={item.title} imgsrc={item.img} description={item.text} href={item.href} source={item.source} icons={item.icons} right={item.invert}></Project>
                         </div>
                     ))}
                     

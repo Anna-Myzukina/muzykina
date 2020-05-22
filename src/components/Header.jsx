@@ -5,15 +5,15 @@ export default () => {
         <header class="header-section">
         <div class="container">
         <div className="row">
-          <div className="col-md-8">
+          <div className="col-md-6 col-lg-6 col-sm-6">
 
           </div>
-          <div className="col-md-4">
+          <div className="col-md-6 col-lg-6 col-sm-8">
           <div class="intro-text">
-            <div class="intro-lead-in">Anna Muzykina</div>
+            <div class="name-surname">Anna Muzykina</div>
             <div class="heading-content">
               <p>
-              Positive, team player with a can-do attitude and willingness to learn new technologies. Proficient in Ruby on Rails, Ruby, RSpec, PostgreSQL, SQLite, Device, JS, Bootstrap, Git, Linux, WP. 
+              Positive, team player with a can-do attitude and willingness to learn new technologies. Proficient in Ruby on Rails, Ruby, RSpec, PostgreSQL, SQLite, Device, JavaScript, Bootstrap, Git, Linux, WordPress, UI/UX, Figma. 
               </p>
             </div>
             <div className="col-md-4">

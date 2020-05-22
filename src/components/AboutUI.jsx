@@ -5,7 +5,7 @@ const About = props => {
     return(
             <div className="col-lg-12">
                 <ul className="about">
-                    <li>
+                    <li className={props.invert}>
                         <div className="about-image">
                             <img className="rounded-circle img-fluid" src={props.imgsrc} alt="about" />
                         </div>

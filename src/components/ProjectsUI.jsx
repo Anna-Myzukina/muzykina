@@ -14,7 +14,12 @@ const Project = props => {
                 <p className="card-text text-secondary">
                     { props.description }
                 </p>
-                
+            </div>
+            <div className="div skills">
+
+                    {(props.icons).map(item => (
+                        <i className={item}></i>
+                    ))}
             </div>
             <div className="pb-4">
             <a href={props.href} class="btn btn-outline-success mr-3" target="_blank" rel="noopener noreferrer">View Demo</a>

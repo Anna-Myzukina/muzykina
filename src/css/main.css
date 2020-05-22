@@ -2,7 +2,9 @@ body{
     /*background: radial-gradient(#e5e5e5, #fff, #e5e5e5);*/
     font-family: 'Josefin';
 }
-
+.img-fluid{
+    height: 100% !important;
+}
 p {
     line-height: 1.75
 }
@@ -76,7 +78,7 @@ h6 {
     background-size: 100% 100%;
 
 }
-header.header-section .intro-text .intro-lead-in {
+header.header-section .intro-text .name-surname {
     font-family: 'Allura';
     color: #deb150;
     box-shadow: 0 0 0 .2rem rgba(51, 46, 31, 0.5) !important;
@@ -128,7 +130,7 @@ ul.social-header li a:hover {
 }
 @media (min-width:768px) {
 
-    header.header-section .intro-text .intro-lead-in {
+    header.header-section .intro-text .name-surname {
         font-size: 40px;
         line-height: 40px;
         margin-bottom: 25px 0;
@@ -281,9 +283,16 @@ ul.social-header li a:hover {
 .about-codersrank{
     width: 250px;
     position: absolute;
-    left: 39%;
+    left: 80%;
+    z-index: 100;
 }
 @media (min-width:768px) {
+
+    .about-codersrank{
+    left: 62%;
+    width: 430px;
+    z-index: 100;
+    }
     .about:before {
         left: 50%
     }
@@ -344,6 +353,12 @@ ul.social-header li a:hover {
     .about>li.about-inverted>.about-panel {
         padding: 0 20px 20px
     }
+    .name-surname{
+        font-size: 20px;
+    }
+    .heading-content{
+        font-size: 16px;
+    }
 }
 
 @media (min-width:1200px) {
@@ -372,7 +387,7 @@ ul.social-header li a:hover {
 .contacts_map {
     position: relative;
     height: 600px;
-    background: url('../img/map.jpg') no-repeat;
+    background: linear-gradient(115deg, rgba(40, 40, 107, 0.603), rgba(136, 136, 206, 0.836)),url('../img/Full-stack-developer.jpg') no-repeat;
     background-size: 100% 100%;
 
 }
