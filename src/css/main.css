@@ -128,6 +128,11 @@ ul.social-header li a:focus,
 ul.social-header li a:hover {
     background-color: #21252944;
 }
+@media (min-width:425px){
+    .about-codersrank{
+        left: 15%;
+    }
+}
 @media (min-width:768px) {
 
     header.header-section .intro-text .name-surname {
