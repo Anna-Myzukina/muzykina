@@ -3,7 +3,7 @@ import React from 'react'
 
 export default () => {
  return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
     <div className="container">
       <div className="row align-items-center">
         <div className="col-md-4">
