@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Live version
 [Portfolio](https://obscure-meadow-93344.herokuapp.com/)
-![portfolio]()
+![portfolio](https://github.com/Anna-Myzukina/muzykina/blob/master/src/img/portfolio.png)
 
 ## Available Scripts
 
